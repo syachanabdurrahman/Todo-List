@@ -66,7 +66,7 @@ body{
 }
 
 .inputField button:hover, .footer button:hover{
-    background: rgb(174, 252, 255);
+    background: rgb(158, 212, 214);
 }
 
 .inputField button.active{
@@ -91,22 +91,22 @@ body{
     word-wrap: break-word;
 }
 
-.todoList li .icon{
+.todoList li .fas{
     position: absolute;
     right: -45px;
     top: 50%;
     transform: translateY(-50%);
-    background: turquoise;
+    background: red;
     width: 45px;
     text-align: center;
     color: white;
     padding: 10px 15px;
-    border-radius: 0 3px 3px 0;
+    border-radius: 3px 0 0 3px;
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
-.todoList li:hover .icon{
+.todoList li:hover .fas{
     right: 0px;
 }
 
